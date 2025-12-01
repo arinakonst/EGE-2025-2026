@@ -8,7 +8,7 @@ def dels(num):
 
     return d
 
-n = 651000
+n = 6500000
 cou = 1
 while cou < 6:
     itog = dels(n)
@@ -18,3 +18,4 @@ while cou < 6:
             print(n, k, cou)
             cou += 1
     n += 1
+
