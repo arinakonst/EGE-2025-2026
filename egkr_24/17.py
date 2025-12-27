@@ -23,5 +23,6 @@ for i in range(0, len(a)-2):
     if f([n1, n2, n3]) == 1 and sum([n1, n2, n3]) <= minim:
         sums.append(sum([n1, n2, n3]))
         k += 1
-print(k)
-print(max(sums))
+print(k)    #2627
+print(max(sums))    #1005
+
